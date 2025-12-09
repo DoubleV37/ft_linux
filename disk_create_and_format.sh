@@ -5,8 +5,7 @@ if [ "$(id -u)" -ne 0 ]; then
 	exit 1
 fi
 
-DISK="/dev/sdb"
-LFS=/mnt/lfs
+source ./config.sh
 
 echo "***Create one part boot (500M), one part swap (2G) and one root part***"
 
