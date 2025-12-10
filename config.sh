@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 export MY_LOGIN="vviovi"
 
@@ -14,3 +14,6 @@ export LC_ALL=POSIX
 export PATH=$LFS/tools/bin:$PATH
 
 export MAKEFLAGS="-j$(nproc)"
+
+export SRC_DIR=$LFS/sources
+export TOOLS_DIR=$LFS/tools

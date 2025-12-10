@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [ "$(id -u)" -ne 0 ]; then
 	echo "Error: you have to run this script with sudo." >&2
